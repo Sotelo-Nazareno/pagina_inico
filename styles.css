@@ -44,6 +44,7 @@ h3{
     height: 250px;
     width: 530px;
     border: 1px solid violet;
+    border-radius: 10px;
 }
 
 h1{ 
