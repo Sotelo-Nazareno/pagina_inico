@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.navegador{
+    background-color: rgb(17, 17, 80);
+    height: 400px;
+    display: flex;
+}
+
+.sesion{
+    position: absolute;        
+    right: 120px;
+    top: 10px;
+}
+
+.register{
+    position: absolute;        
+    right: 19px;
+    top: 10px;  
+}
+
+a, 
+.portt {
+    text-decoration: none;
+    color: rgb(233, 226, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3{
+    position: absolute;
+    right: 95%;
+}
