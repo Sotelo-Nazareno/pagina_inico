@@ -71,6 +71,7 @@ h1{
     color: rgb(233, 226, 226);
     background-color: black;
     border: 1px solid blue;
+    border-radius: 20px;
 }
 
 h2{
@@ -94,6 +95,7 @@ h2{
     background-image: url(img/igris.avif);
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
 }
 
 .igris{
@@ -112,6 +114,7 @@ h2{
     border: 1px solid red;
     background-image: url(img/beru.webp);
     background-size: cover;
+    border-radius: 20px;
 }
 
 .beru{
@@ -131,6 +134,7 @@ h2{
     background-image: url(img/tomas.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
 }
 
 .tomas{
@@ -151,6 +155,7 @@ h2{
     background-image: url(img/ice.webp);
     background-position: top;
     background-size: cover;
+    border-radius: 20px;
 }
 
 .moni{
@@ -186,6 +191,43 @@ h2{
     position: relative;
     bottom: 35%;
     font-weight: 500;
+}
+
+.discord{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    background-color: #d3d6db;
+    flex-direction: column;
+}
+
+.ds1,
+.ds2,
+.ds3,
+.ds4{
+    position: relative;
+    top: 40px;
+    margin-left: 500px;
+}
+
+.ds3,.ds2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.ds4{
+    position: relative;
+    padding: 15px;
+    width: 100px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.dis{
+    color: black;
 }
 
 footer{
